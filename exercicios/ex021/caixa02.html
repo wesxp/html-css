@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tag</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: green;
+        }
+        header{
+            background-color: aliceblue;
+            width: 669px;
+            padding: 10px;
+            margin: 10px auto 10px auto;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            width: 400px;
+            padding: 7px;
+            margin: 5px auto 5px auto;
+            
+        }
+        .rodape{
+            color: white;
+            text-align: center;
+            text-decoration: solid;
+        }
+        nav > a:hover{
+            color: yellow;
+            text-decoration: underline;
+            background-color: brown;
+        }
+        nav{
+            box-shadow: 1px 1px 1px black;
+            width: 600px;
+            height: 25px;
+            background-color: aqua;
+
+        }
+        h1{
+            text-align: center;
+        }
+        main{
+            background-color: cadetblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        div#bola{
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            padding: 2px;
+            border-radius: 59px;
+
+        }
+        div > div#bola:hover{
+            background-color: brown;
+        }
+    
+    </style>
+</head>
+<body>
+     <header>
+        <h1>Meu site </h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+
+     </header>
+     <main>
+        <section id="assuntos">
+            <section id="noticias">
+                <article>
+                    <h2>Noticias do brasil</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ea, corporis itaque exercitationem officiis repellendus consequatur vitae accusamus illum aliquid neque, magni rerum. Aut voluptatibus reprehenderit velit architecto. Veniam, aspernatur.</p>
+                </article>
+            </section>
+        </section>
+
+     </main>
+     <footer>
+         <p class="rodape">Desenvolvido por Wesley</p>
+     </footer>
+     <div id="bola"><p></p></div>
+
+</body>
+</html>
