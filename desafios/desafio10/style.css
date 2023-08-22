@@ -34,7 +34,7 @@ nav > a:hover{
     background-color: #64f4ba98;
 }
 p{
-    text-indent: 20%;
+    text-align: justify;
 }
 h1{
     color:green;
@@ -95,9 +95,6 @@ a{
     
 }
 
-abbr{
-    color: white;
-}
 img{
     width: 100%;
 }
@@ -109,6 +106,16 @@ ul{
 }
 div.video{
     background-color: #1A5C38;
-    margin-bottom: 50px;
-    padding: 10px;
+    margin-bottom: 30px;
+    margin: 0px 0px 0 01px;
+    padding-bottom: 60%;
+    position: relative;
+}
+div.video iframe{
+position: absolute;
+top:5%;
+left: 5%;
+width: 90%;
+height: 90%;
+
 }
