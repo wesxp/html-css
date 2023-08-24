@@ -3,7 +3,15 @@
     margin: 0px;
     padding: 0px;
 }
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&family=Passion+One&family=VT323&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&family=Sriracha&family=VT323&display=swap');
+  :root{
+      --font1: verdana,geneva,tahoma, sans-serif;
+      --font2: 'pession one';
+      --font3:'sriracha'
+  }
 html ,body{
+    font-family: var(--font1);
     min-height: 100vh;
     background-color: darkgrey;
 }
@@ -13,6 +21,7 @@ header{
     text-align: center;
 }
 header > h1{
+    font-family: var(--font2);
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -34,6 +43,7 @@ footer{
     padding: 10px;
 }
 section{
+    font-family: var(--font3);
     padding-top:10vh ;
     padding-bottom: 10vh;
     line-height: 2em;
