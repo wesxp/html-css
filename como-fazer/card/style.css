@@ -17,6 +17,11 @@ body{
     height: 260px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
+    transition: 0.3s;
+
+  }
+  .card:hover{
+    transform: scale3d(1.1 ,1.1 ,1);
   }
   .card img {
     width: 100%;
