@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de formulario</title>
+</head>
+<body>
+    <h1>teste de formulário</h1>
+    <form action="cadastro.php">
+        <p><label for="iname">nome:</label> <input type="text" name="nome" id="iname" required  minlength="4" placeholder="nome completo"></p>
+        <p><label for="isenha">senha:</label> <input type="password" name="" id="isenha" minlength="6" maxlength="8" required ></p>
+        <p><label for="inota">nota:</label> <input type="number" name="nota" id="inota" min="0" max="10" placeholder="0 a 10 " step="0.5"></p>
+        <p><label for="imes">período letivo:</label><input type="month" name="mes" id="imes"></p>
+        <p><label for="idata">Dia da Prova:<input type="date" name="data" id="idata"></label></p>
+        <p><label for="tempo">Horário da Prova:</label><input type="time" name="tempo" id="itempo"></p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
